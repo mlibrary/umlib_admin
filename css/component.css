@@ -1,0 +1,6 @@
+
+/* Status Messages -  Callout Messages */
+
+.messages--status {
+  background-color: var(--color-neutral-100) !important;
+}
