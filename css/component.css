@@ -1,6 +1,241 @@
 
+/* Buttons */
+
+button,
+.button {
+ border: none;
+ outline: none;
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
+ gap: .25rem;
+ padding: 0 .75rem;
+ font-size: 1rem;
+ min-height: 2.5rem;
+ line-height: 1.5;
+ font-weight: 700;
+ font-family: var(--font-base-family);
+ border-radius: var(--radius-default);
+}
+
+.button--primary {
+  color: var(--button-fg-color--primary);
+  background-color: var(--button-bg-color--primary);
+}
+
+button:not([disabled]):active, .button:not([disabled]):focus, .button:not([disabled]):hover {
+  box-shadow: 0 0 0 2px #fff,0 0 0 3px var(--color-neutral-400);
+}
+
+input[value="Search"], .button--search, input[value="Search"]:hover , .button--search:hover  {
+  color: var(--button-fg-color);
+  background-color: var(--color-maize-400);
+}
+
+.button--secondary {
+  background: var(--color-neutral-100);
+  color: var(--color-neutral-400);
+ }
+ 
+ .button--critical {
+  background: var(--color-pink-500);
+  color: #fff;
+ }
+ 
+ .button--outline,
+ .button--ghost {
+  background: none;
+  border: solid 1px;
+  color: var(--color-neutral-400);
+ }
+
 /* Status Messages -  Callout Messages */
 
 .messages--status {
   background-color: var(--color-neutral-100) !important;
+}
+
+
+/* Tabs */
+
+.tabs__link.is-active {
+  color: var(--color-teal-400);
+}
+
+.is-horizontal .tabs__link.is-active::before {
+  border-right: none;
+  border-bottom: var(--tabs--active-height) solid var(--color-teal-400);
+  border-left: none;
+}
+
+.is-horizontal .tabs__link:hover {
+  color: var(--color-teal-400);
+  background: var(--tabs--hover-bg-color);
+}
+
+/* Website Header */
+
+
+.website-header {
+  padding-top: var(--space-medium);
+  padding-bottom: var(--space-medium);
+  border-bottom: solid 2px var(--color-neutral-100);
+}
+
+.umlib-messages {
+  width: 100%;
+}
+
+/* Adds styling for the status message in header */
+.umlib-messages > div> div {
+  margin-top: 1rem;
+  padding: 8px;
+  background: var(--color-teal-100);
+  border-left: solid 2px var(--color-teal-400);
+}
+
+.website-logo-link {
+  margin-right: var(--space-medium);
+  display: inline-block;
+  line-height: 0;
+}
+
+.website-name {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-neutral-300);
+  text-decoration: none;
+  line-height: 0;
+  font-size: var(--text-medium);
+  text-transform: uppercase;
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+}
+
+.website-name a:hover {
+  text-decoration: underline;
+}
+
+.website-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.website-header_inner-container div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.umlib-messages div, .umlib-messages div div {
+  display: block !important;
+}
+
+/* Footer */
+
+.footer {
+  background: var(--color-blue-400);
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul a {
+  display: inline-block;
+  padding: .25rem 0;
+}
+
+.footer ul a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.footer ul a span:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a > svg {
+  margin-right: 0.5em;
+}
+
+.address {
+  max-width: 22ch;
+}
+
+.footer__content {
+  color: var(--color-blue-100);
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  gap: 3rem;
+}
+
+.footer__content .first-column ul li a {
+  text-decoration: none;
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__content ul li a {
+  text-decoration: none;
+}
+
+.footer__content h2 {
+  color: var(--color-blue-200);
+  font-size: 0.875rem;
+  font-weight: 800;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.footer__policies {
+  border-left: solid 1px var(--color-blue-300);
+  padding-left: 2em;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__policies {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
+.footer__disclaimer {
+  background: var(--color-blue-500);
+  color: var(--color-blue-200);
+  padding: 1rem 0;
+}
+
+.footer__disclaimer a {
+  color: var(--color-blue-200);
+}
+
+.footer__disclaimer p {
+  margin: 0;
+}
+
+@media screen and (max-width:40rem) {
+  .footer__disclaimer p {
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .footer__disclaimer p {
+    display: inline-block;
+  }
+  .footer__disclaimer p + p {
+    margin-left: 2rem;
+  }
 }
