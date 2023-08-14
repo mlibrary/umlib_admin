@@ -1,3 +1,4 @@
+/* Admin account menu - Block */
 
 span[data-drupal-link-system-path="user"]::before {
   font-family: "Material Icons";
@@ -72,7 +73,7 @@ input[value="Search"], .button--search, input[value="Search"]:hover , .button--s
   color: var(--color-neutral-400);
  }
 
-/* Input - Checkbox */
+/* Inputs - Checkbox & Radios */
 
 .form-boolean--type-checkbox:checked, .form-boolean--type-checkbox:checked:hover {
   border-color: var(--input--focus-border-color);
