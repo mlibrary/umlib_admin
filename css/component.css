@@ -6,6 +6,30 @@ span[data-drupal-link-system-path="user"]::before {
   padding-right: .125rem;
 }
 
+/* Breadcrumbs */
+
+.breadcrumb {
+  font-size: 1rem;
+  font-weight: var(--regular);
+}
+
+.breadcrumb__item::before {
+  font-size: 1rem;
+}
+
+.breadcrumb__item, .breadcrumb__link {
+  color: var(--color-teal-400);
+  font-weight: var(--regular);
+}
+
+.breadcrumb__link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb__item:last-child > a {
+  color: var(--color-text);
+}
+
 /* Buttons */
 
 button,
@@ -56,7 +80,7 @@ input[value="Search"], .button--search, input[value="Search"]:hover , .button--s
   box-shadow: none;
 }
 
-/* Details */
+/* Details & Accordion */
 
  .claro-details__summary:hover {
   color: var(--color-teal-400);
@@ -81,6 +105,22 @@ input[value="Search"], .button--search, input[value="Search"]:hover , .button--s
 .claro-details__summary::after {
   color: var(--color-teal-400);
   box-shadow: none !important; /* Removes green active box-shadow*/
+}
+
+[open] > .claro-details__summary--accordion:not(:focus,:active)::after, [open] > .claro-details__summary--accordion-item:not(:focus,:active)::after, [open] > .claro-details__summary--vertical-tabs-item:not(:focus,:active)::after {
+  opacity: 1;
+  border: var(--details-summary-focus-border-size) solid var(--color-teal-400);
+  border-width: 0 0 0 var(--details-summary-focus-border-size);
+  box-shadow: none;
+  color: var(--color-teal-400);
+}
+
+[open] .claro-details__summary--accordion, [open] .claro-details__summary--accordion-item, [open] .claro-details__summary--vertical-tabs-item {
+  color: var(--color-teal-400);
+}
+
+.claro-details[open] > .claro-details__summary:focus {
+  color: var(--color-teal-400);
 }
 
 /* Status Messages -  Callout Messages */
