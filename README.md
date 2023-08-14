@@ -18,7 +18,7 @@ and add the following below your drupal line in repositories
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
-         "umlib_base-theme": {
+         "umlib_admin-theme": {
              "type": "package",
              "package": {
                  "name": "mlibrary/umlib_admin",
