@@ -39,9 +39,8 @@
  * @see html.html.twig
  */
 #}
-  <header class="clearfix">
-    <m-universal-header></m-universal-header>
-  
+  <m-universal-header></m-universal-header>
+  <div class="clearfix">
   <header class="website-header">
     <div class="viewport-container">
       <div class="website-header_inner-container">
@@ -63,10 +62,9 @@
       {{ page.header }}
       {{ page.breadcrumb }}
     </div> 
-  </header>
-  
+  </div>
 
-  <div class="layout-container viewport-container">
+  <div class="viewport-container">
     {{ page.pre_content }}
     <main class="page-content clearfix" role="main">
       <div class="visually-hidden"><a id="main-content" tabindex="-1"></a></div>
