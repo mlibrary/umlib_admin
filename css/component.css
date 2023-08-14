@@ -239,13 +239,13 @@ nav.tabs-wrapper.is-horizontal.is-collapsible.position-container.is-horizontal-e
   border-left: solid 2px var(--color-teal-400);
 }
 
-.website-logo-link {
+a.site-logo {
   margin-right: var(--space-medium);
   display: inline-block;
   line-height: 0;
 }
 
-.website-name {
+.site-name a {
   display: inline-flex;
   align-items: center;
   color: var(--color-neutral-300);
@@ -257,7 +257,7 @@ nav.tabs-wrapper.is-horizontal.is-collapsible.position-container.is-horizontal-e
   letter-spacing: 0.5px;
 }
 
-.website-name a:hover {
+.site-name a:hover {
   text-decoration: underline;
 }
 

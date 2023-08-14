@@ -1,0 +1,15 @@
+/* User menu layout */
+
+#block-useraccountmenu-menu {
+  display: none;;
+}
+
+#block-useraccountmenu ul.menu {
+  display: inline;
+}
+
+#block-useraccountmenu ul.menu li {
+  display: inline;
+  list-style: none;
+  padding: 0 .5rem;
+}
