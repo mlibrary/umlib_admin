@@ -125,6 +125,12 @@ input[value="Search"], .button--search, input[value="Search"]:hover , .button--s
   color: var(--color-teal-400);
 }
 
+/* Pagination Pager */
+
+.pager__link, .pager__item--current {
+  border-radius: 4px;
+}
+
 /* Status Messages -  Callout Messages */
 
 .messages {
