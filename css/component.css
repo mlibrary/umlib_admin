@@ -152,6 +152,10 @@ input[value="Search"], .button--search, input[value="Search"]:hover , .button--s
   border-radius: var(--radius-default);
 }
 
+.messages__title {
+  padding-top: 0;
+}
+
 .messages__header, .messages__content {
   color: var(--color-neutral-400);
 }
