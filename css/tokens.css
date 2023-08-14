@@ -82,9 +82,15 @@
 /* These tokens are to overwrite Claro custom properties */
 
 :root {
+  --color-text: var(--color-neutral-400);
   --button-fg-color--primary: #fff;
   --button-fg-color: var(--color-neutral-400);
+  --button--active-bg-color--primary: var(--color-teal-400);
   --button-bg-color--primary: var(--color-teal-400);
   --button--hover-bg-color--primary: var(--color-teal-400);
   --tabs--hover-bg-color: var(--color-teal-100);
+  --input--focus-border-color: var(--color-teal-400);
+  --color-link-active: var(--color-teal-400);
+  --color-link-hover: var(--color-teal-400);
+  --color-link: var(--color-teal-400);
 }

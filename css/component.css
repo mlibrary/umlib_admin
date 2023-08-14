@@ -48,6 +48,41 @@ input[value="Search"], .button--search, input[value="Search"]:hover , .button--s
   color: var(--color-neutral-400);
  }
 
+/* Input - Checkbox */
+
+.form-boolean--type-checkbox:checked, .form-boolean--type-checkbox:checked:hover {
+  border-color: var(--input--focus-border-color);
+  background-color: var(--input--focus-border-color);
+  box-shadow: none;
+}
+
+/* Details */
+
+ .claro-details__summary:hover {
+  color: var(--color-teal-400);
+  background: var(--tabs--hover-bg-color);
+ }
+
+ .claro-details[open] > .claro-details__summary {
+  border-left: solid 2px var(--color-teal-400);
+  border-bottom: solid .5px var(--color-neutral-100);
+ }
+
+ @media screen and (min-width: 48em) {
+  .claro-details__wrapper {
+    margin: var(--space-m) var(--details-desktop-wrapper-padding-start);
+  }
+ }
+
+ .claro-details__summary:active {
+  color: var(--color-teal-400);
+ }
+
+.claro-details__summary::after {
+  color: var(--color-teal-400);
+  box-shadow: none !important; /* Removes green active box-shadow*/
+}
+
 /* Status Messages -  Callout Messages */
 
 .messages {
