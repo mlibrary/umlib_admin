@@ -36,7 +36,12 @@ body {
 }
 
 p {
-  max-width: 60ch;
+  max-width: 68ch;
+  padding: 0.5rem 0;
+}
+
+.prose > p {
+  max-width: 68ch;
 }
 
 *:focus {

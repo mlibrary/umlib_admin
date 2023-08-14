@@ -82,6 +82,11 @@ input[value="Search"], .button--search, input[value="Search"]:hover , .button--s
   box-shadow: none;
 }
 
+.form-boolean--type-checkbox[disabled]:checked {
+  background-color: var(--color-neutral-100);
+  cursor: not-allowed;
+}
+
 /* Details & Accordion */
 
  .claro-details__summary:hover {
@@ -129,6 +134,12 @@ input[value="Search"], .button--search, input[value="Search"]:hover , .button--s
 
 .pager__link, .pager__item--current {
   border-radius: 4px;
+}
+
+/* Panel */
+
+.panel__title {
+  background-color: var(--color-teal-100);
 }
 
 /* Status Messages -  Callout Messages */
