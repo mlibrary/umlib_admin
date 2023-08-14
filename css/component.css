@@ -117,6 +117,22 @@ input[value="Search"], .button--search, input[value="Search"]:hover , .button--s
   color: var(--color-pink-500);
 }
 
+/* Tables */
+th {
+  background-color: var(--color-teal-100);
+}
+
+.sortable-heading.is-active > a {
+  color: var(--color-teal-400);
+}
+
+.sortable-heading.is-active > a::before {
+  border-bottom: 0.1875rem solid var(--color-teal-400);
+}
+
+tr:hover {
+  background-color: var(--color-maize-100);
+}
 
 /* Tabs */
 

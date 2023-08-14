@@ -53,8 +53,11 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
   text-decoration-thickness: 2px;
+}
+
+.action-link--danger {
+  color: var(--color-pink-400);
 }
 
 /* Typography and text  */
