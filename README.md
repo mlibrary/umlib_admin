@@ -26,7 +26,7 @@ and add the following below your drupal line in repositories
                  "type": "drupal-theme",
                  "dist": {
                      "type": "zip",
-                     "url": "https://github.com/mlibrary/umlib_base/archive/refs/heads/main.zip",
+                     "url": "https://github.com/mlibrary/umlib_admin/archive/refs/heads/main.zip",
                      "reference": "main"
                  }
              }
