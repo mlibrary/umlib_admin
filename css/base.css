@@ -98,21 +98,21 @@ h3 {
   font-size: 1.35rem;
   font-weight: normal;
   line-height: var(--line-height-heading);
-  padding-top: 1.5rem;
   margin-bottom: .75rem;
+  padding-top: .5rem;
 }
 
 h4 {
   font-size: 1.25rem;
   line-height: var(--line-height-heading);
-  padding-top: 1.25rem;
+  padding-top: .5rem;
 }
 
 h5,
 h6 {
   font-size: 1rem;
   line-height: var(--line-height-heading);
-  padding-top: 1.15rem;
+  padding-top: .5rem;
 }
 
 pre {
