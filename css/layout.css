@@ -1,14 +1,10 @@
 /* User menu layout */
 
-#block-useraccountmenu-menu {
-  display: none;;
+.region-header > .menu--account h2 {
+  display: none;
 }
 
-#block-useraccountmenu ul.menu {
-  display: inline;
-}
-
-#block-useraccountmenu ul.menu li {
+.region-header > .menu--account > ul.menu > li {
   display: inline;
   list-style: none;
   padding: 0 .5rem;
