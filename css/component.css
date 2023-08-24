@@ -1,12 +1,3 @@
-/* Admin account menu - Block */
-
-span[data-drupal-link-system-path="user"]::before {
-  font-family: "Material Icons";
-  content: '\e7fd';
-  vertical-align: bottom;
-  padding-right: .125rem;
-}
-
 /* Breadcrumbs */
 
 .breadcrumb {
@@ -202,7 +193,7 @@ tr:hover {
   background-color: var(--color-maize-100);
 }
 
-/* Tabs */
+/* Tabs - Horizontal */
 
 .tabs__link.is-active {
   color: var(--color-teal-400);
@@ -221,6 +212,23 @@ tr:hover {
 
 nav.tabs-wrapper.is-horizontal.is-collapsible.position-container.is-horizontal-enabled {
   border-bottom: solid 1px var(--color-teal-100);
+}
+
+/* Tabs - Vertical */
+
+.vertical-tabs__menu-item.is-selected .vertical-tabs__menu-link {
+  color: var(--color-teal-400);
+}
+
+.vertical-tabs__menu-item.is-selected .vertical-tabs__menu-link:hover {
+  color: var(--color-teal-400);
+  background-color: var(--color-teal-100);
+}
+
+.vertical-tabs__menu-link:hover {
+  text-decoration: none;
+  color: var(--color-teal-400);
+  background-color: var(--color-teal-100);
 }
 
 /* Website Header */

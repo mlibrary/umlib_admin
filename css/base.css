@@ -67,6 +67,12 @@ a:hover {
   color: var(--color-pink-400);
 }
 
+.action-link:hover {
+  text-decoration: none;
+  color: var(--color-teal-400);
+  background-color: var(--color-teal-100);
+}
+
 /* Typography and text  */
 
 h1,
