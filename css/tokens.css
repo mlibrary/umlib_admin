@@ -93,12 +93,12 @@
   --color-link-active: var(--color-teal-400);
   --color-link-hover: var(--color-teal-400);
   --color-link: var(--color-teal-400);
-  --pager--active-bg-color: var(--color-teal-400);
   --pager-border-radius--action: 2px;
   --pager--hover-bg-color: var(--color-teal-100);
   --pager--focus-bg-color: var(--color-focus);
   --pager--active-fg-color: var(--color-white);
   --pager--active-bg-color: var(--color-teal-400);
   --vertical-tabs-menu-link--active-border-color:  var(--color-teal-400);
+  --tabs--active-height: 0.1875rem;
 }
 

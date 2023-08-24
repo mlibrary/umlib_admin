@@ -39,6 +39,11 @@ button,
   background-color: var(--button-bg-color--primary);
 }
 
+.button--primary:hover {
+  color: #fff;
+  background-color: var(--button--hover-bg-color--primary);
+}
+
 button:not([disabled]):active, .button:not([disabled]):focus, .button:not([disabled]):hover {
   box-shadow: 0 0 0 2px #fff,0 0 0 3px var(--color-neutral-400);
 }
@@ -229,6 +234,10 @@ nav.tabs-wrapper.is-horizontal.is-collapsible.position-container.is-horizontal-e
   text-decoration: none;
   color: var(--color-teal-400);
   background-color: var(--color-teal-100);
+}
+
+.tabs__tab.is-active::before {
+  border-left: 3px solid var(--color-teal-400);
 }
 
 /* Website Header */

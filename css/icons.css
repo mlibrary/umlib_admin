@@ -44,3 +44,9 @@ background-image: url('data:image/svg+xml,<svg  width="9" height="14" xmlns="htt
 .views-tabs .add a:hover::before {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' stroke-width='2' stroke='%231D7491'><path d='m3 8h10'/><path d='m8 3v10'/></svg>");
 }
+
+/* Vertical tabs trigger hamburger icon */
+
+button.reset-appearance.tabs__trigger > svg > path {
+  fill: var(--color-teal-400);
+}
