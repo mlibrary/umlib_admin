@@ -8,6 +8,7 @@ global-styling:
       css/component.css: {}
       css/breadcrumb.css: {}
       css/utilities.css: {}
+      css/icons.css: {}
 global-scripts:
   version: 1.x
   js:
