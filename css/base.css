@@ -65,10 +65,22 @@ a:hover {
 
 .action-link--danger {
   color: var(--color-pink-400);
+  border: solid 2px transparent;
+  border-radius: 4px;
 }
 
-.action-link:hover {
+.action-link--danger:hover {
+  border: solid 2px var(--color-pink-400);
+}
+
+
+.action-link--small:hover {
   text-decoration: none;
+  color: var(--color-teal-400);
+  background-color: var(--color-teal-100);
+}
+
+.views-tabs .add a:hover {
   color: var(--color-teal-400);
   background-color: var(--color-teal-100);
 }

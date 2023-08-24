@@ -38,5 +38,9 @@ background-image: url('data:image/svg+xml,<svg  width="9" height="14" xmlns="htt
 
 .sortable-heading > a:hover::after {
   background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='8'><path d='M1.75.25v1.5h10.5V.25zm0 3v1.5h7.5v-1.5zm0 3v1.5h4.5v-1.5z' fill='%231D7491'/></svg>") no-repeat 50% 50%;
+}
 
+/* Views UI icons */
+.views-tabs .add a:hover::before {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' stroke-width='2' stroke='%231D7491'><path d='m3 8h10'/><path d='m8 3v10'/></svg>");
 }
