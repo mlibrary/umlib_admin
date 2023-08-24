@@ -412,3 +412,13 @@ a.site-logo {
 .views-ui-display-tab-bucket__title {
   padding-top: 0;
 }
+
+/* Field UI admin */
+
+/* Display cog icon for edit widget  */
+
+.field-plugin-settings-edit {
+  width: 1rem;
+  margin: 0;
+  padding: 0;
+}
