@@ -446,3 +446,15 @@ a.site-logo {
   margin: 0;
   padding: 0;
 }
+
+/* Views bulk action bar */
+
+.views-bulk-actions__item .button--primary:not(:disabled,.is-disabled) {
+  background: #fff;
+  color: var(--color-neutral-400);
+}
+
+.views-bulk-actions__item .button--primary:not(:disabled,.is-disabled):hover {
+  box-shadow: 0 0 0 2px #fff,0 0 0 3px var(--color-neutral-400);
+  background: #fff;
+}

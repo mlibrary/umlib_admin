@@ -1,4 +1,9 @@
 # umlib_admin
+Theme development environment:
+- Drupal version: 10.1.6
+- Claro version: 10.1.6
+
+Please contact burkebri@umich.edu if you notice any updates or changes needed based on your installed Drupal version.
 
 This is the admin drupal theme for U-M Library sites built using the Claro admin theme as a parent. The umlib_admin theme uses styles from the U-M Library Design System.
 
@@ -23,7 +28,7 @@ Ensure that the following are checked in Appearance settings:
 
 ### Setup
 
-**Please add this theme to your Drupal full stack project using composer:**
+**To add this theme to your Drupal full stack project using composer:**
 
 ```
 vi composer.json
