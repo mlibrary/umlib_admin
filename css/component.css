@@ -126,6 +126,12 @@ input[value="Search"], .button--search, input[value="Search"]:hover , .button--s
   color: var(--color-teal-400);
 }
 
+/* Fields */
+
+.field {
+  padding: .5rem 0;
+}
+
 /* Pagination Pager */
 
 .pager__link, .pager__item--current {
@@ -133,6 +139,10 @@ input[value="Search"], .button--search, input[value="Search"]:hover , .button--s
 }
 
 .pager__link.is-active, .pager__item--current {
+  background-color: var(--color-teal-400);
+}
+
+li.pager__item.pager__item--mini.pager__item--current {
   background-color: var(--color-teal-400);
 }
 

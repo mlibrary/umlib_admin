@@ -8,6 +8,7 @@ Please contact burkebri@umich.edu if you notice any updates or changes needed ba
 This is the admin drupal theme for U-M Library sites built using the Claro admin theme as a parent. The umlib_admin theme uses styles from the U-M Library Design System.
 
 ## Regions & Blocks
+Coming soon: block configuration- in the meantime, please use the below as a start.
 
 The website header relies on two blocks in the header region.
 
@@ -15,7 +16,22 @@ Region: Header
 - Site branding
 - User account menu
 
-For more information, see the Drupal umlib_admin Figma file.
+Region: Pre-content
+- Page title
+- Primary tabs
+- Secondary tabs
+
+Region: Breadcrumb
+- Breadcrumb
+
+Region: Highlighted
+- Status Messages
+
+Region: Content:
+- Primary admin actions
+- Main content
+
+For more information, see the Drupal umlib_admin Figma file. Ask Bridget for permission as needed.
 
 ## Website header
 

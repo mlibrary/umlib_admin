@@ -5,7 +5,9 @@ global-styling:
       css/base.css: {}
       css/tokens.css: {}
       css/layout.css: {}
+      css/forms.css: {}
       css/component.css: {}
+      css/navigation.css: {}
       css/breadcrumb.css: {}
       css/utilities.css: {}
       css/icons.css: {}
