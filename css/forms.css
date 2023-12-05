@@ -1,6 +1,7 @@
 /* Forms */
 
-.form-item__label {
+.form-item__label, 
+.fieldset__legend--composite {
   font-size: 1rem;
 }
 
