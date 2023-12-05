@@ -126,10 +126,14 @@ input[value="Search"], .button--search, input[value="Search"]:hover , .button--s
   color: var(--color-teal-400);
 }
 
-/* Fields */
+/* Field Spacing */
 
 .field--label-above {
-  padding-top: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.field__item > p {
+  padding-top: 0;
 }
 
 /* Pagination Pager */
