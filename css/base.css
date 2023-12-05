@@ -92,14 +92,15 @@ h1,
   font-size: 2.5rem;
   font-family: var(--font-second-family);
   font-weight: 400;
-  padding-top: 1.5rem;
+  padding-top: 1.75rem;
   padding-bottom: 1.125rem;
 }
 
 .page-title {
-  padding-top: 1.5rem;
+  padding-top: 1.75rem;
   padding-bottom: 0.125rem;
 }
+
 .block-page-title-block:last-child {
   margin-bottom: var(--space-sm);
 }
