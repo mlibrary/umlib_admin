@@ -156,7 +156,7 @@ li.pager__item.pager__item--mini.pager__item--current {
 
 .pager__link.is-active:hover {
   color: #fff;
-  background-color: var(--pager--hover-bg-color);
+  background-color: var(--color-teal-400);
   box-shadow: 0 0 0 2px var(--color-maize-400),
     0 0 0 3px var(--color-neutral-400) !important;
 }
