@@ -197,3 +197,19 @@ blockquote {
     transition-delay: 0s !important;
   }
 }
+
+.view-content table {
+  margin-top:0;
+}
+
+.view-content {
+  --shadow-color: rgba(29, 116, 145, 0.55);
+  --transparent: rgba(255, 255, 255, 0);
+  overflow-x: scroll;
+  background-image: linear-gradient(to right, white, white), linear-gradient(to right, white, white), linear-gradient(to right, var(--shadow-color), var(--transparent)), linear-gradient(to left, var(--shadow-color), var(--transparent));
+  background-position: left center, right center, left center, right center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 10px 100%, 20px 100%, 10px 100%, 10px 100%;
+  background-attachment: local, local, scroll, scroll;
+}
